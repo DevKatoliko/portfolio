@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+      body{
+        background-color: rgb(22, 22, 22);
+      }
+        h1 {
+            text-align: center;
+            font-size: 5rem;
+            color: #f3bd67;
+        }
+
+        .menu {
+            text-align: center;
+            border: #f3bd67 5px solid;
+            background-color: rgb(32, 32, 32);
+            margin-top: 100px;
+            height:150px
+
+
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul a {
+            text-decoration: none;
+            font-size: 3rem;
+            color: white;
+            
+        }
+
+        ul li {
+            display: inline-block;
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+        ul li :hover{
+            color:  #f3bd67;
+            font-size: 3.01rem;
+        }
+        
+        footer{
+            display: block;
+            margin:100px;
+            margin-left: 0;
+            text-align: left;
+            width:50%;
+        }
+        footer h2{
+            font-size: 3rem;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            color: #f3bd67;
+        }
+        footer form{
+            font-size: xx-large;
+            color: #f3bd67;
+           
+        }
+        footer input{
+            font-size: large;
+        }
+        
+        footer textarea{
+            font-size: large;
+            width: 400px;
+            height: 150px;
+        }
+        .textlabel{
+            display: block;
+            text-align: center;   
+        }
+        .titulos h2{
+            display: inline-block;
+            font-size: 3rem;
+            margin-left:300px;
+            margin-top: 25px;
+            color: #f3bd67;
+        }
+        .sociais{
+            display: block;
+            float:right;
+            margin-top: 100px;
+            margin-right: 450px;
+           width: 200px;
+           height: 200px;
+          
+           
+        }
+        .sociais img{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin-top:30px
+        }
+        .sociais a{
+            display: inline-block;
+            text-align: right;
+            width: 100px;
+            height: 100px;
+            margin-top:30px;
+            text-decoration: none;
+            color:#f3bd67;
+             
+        }
+        .social-item {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.social-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.social-item span {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    
+}
+    </style>
+</head>
+
+<body>
+    
+    <h1>Esse é o meu Portifólio</h1>
+    <ul class="menu">
+        <li><a href="sobreMim.html">Sobre mim</a></li>
+        <li><a href="minhaFormacao.html">Minha formação</a></li>
+        <li><a href="meusTrabalho.html">Meus trabalhos</a></li>
+    </ul>
+    <div class="titulos">
+    <h2> Deixe sua mensagem </h2>
+    <h2>Me ache nas redes sociais</h2>
+    </div>
+    <div class="sociais">
+        <div class="social-item">
+            <a href="https://www.youtube.com/channel/UCk-89XugOt1cd537_9GYm0w" target="_blank">
+                <img src="youtube-icon-logo-521820CDD7-seeklogo.com.png" alt="YouTube">
+                <span>YouTube</span>
+            </a>
+        </div>
+        <div class="social-item">
+            <a href="https://twitter.com/home" target="_blank">
+                <img src="Logo_of_Twitter.svg.png" alt="Twitter">
+                <span>Twitter</span>
+            </a>
+        </div>
+    </div>
+    <footer>
+    
+        <form>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="email">E-Mail</label>
+        <input type="text" id="email" name="email" required><br><br>
+        <div class ="textlabel">
+        <label  for="mensagem">Mensagem</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite aqui sua mensagem" ></textarea><br>
+        </div>   
+        </form>
+        
+    </footer>
+</body>
+
+</html>
